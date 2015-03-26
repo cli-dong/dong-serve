@@ -20,7 +20,8 @@ module.exports = function(options) {
     host: '127.0.0.1',
     port: 9527,
     mock: 'api',
-    open: false
+    open: false,
+    debug: false
   }, pkg && pkg.dong || {}, options)
 
   require('./lib/server')(options)
