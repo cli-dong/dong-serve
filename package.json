@@ -1,0 +1,43 @@
+{
+  "name": "dong-serve",
+  "version": "0.0.0",
+  "description": "a web server with static serve and api mocking",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/crossjs/dong-serve.git"
+  },
+  "keywords": [
+    "spm",
+    "seajs",
+    "server"
+  ],
+  "author": {
+    "name": "crossjs",
+    "email": "liwenfu@crossjs.com"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/crossjs/dong-serve/blob/master/LICENSE-MIT"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/crossjs/dong-serve/issues"
+  },
+  "homepage": "https://github.com/crossjs/dong-serve",
+  "dependencies": {
+    "chalk": "^0.5.1",
+    "dong-queue": "^0.0.0",
+    "extend": "^2.0.0",
+    "finalhandler": "^0.3.2",
+    "open": "0.0.5",
+    "package": "^1.0.1",
+    "serve-api": "^0.0.1",
+    "serve-favicon": "^2.1.7",
+    "serve-index": "^1.5.2",
+    "serve-static": "^1.9.2"
+  }
+}
