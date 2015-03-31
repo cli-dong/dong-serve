@@ -1,6 +1,6 @@
 {
   "name": "dong-serve",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "a web server with static serve and api mocking",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -35,7 +35,7 @@
     "finalhandler": "^0.3.2",
     "open": "0.0.5",
     "package": "^1.0.1",
-    "serve-api": "^0.0.1",
+    "serve-api": "^0.0.3",
     "serve-favicon": "^2.1.7",
     "serve-index": "^1.5.2",
     "serve-static": "^1.9.2"
