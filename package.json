@@ -1,6 +1,6 @@
 {
   "name": "dong-serve",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "a web server with static serve and api mocking",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -28,7 +28,7 @@
   "homepage": "https://github.com/crossjs/dong-serve",
   "dependencies": {
     "chalk": "^0.5.1",
-    "dong-queue": "^0.0.0",
+    "dong-queue": "^0.1.0",
     "finalhandler": "^0.3.2",
     "morgan": "^1.5.2",
     "open": "0.0.5",

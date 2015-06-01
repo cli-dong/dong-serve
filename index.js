@@ -10,7 +10,7 @@
 
 module.exports = {
   command: 'serve',
-  description: '启动 Web 服务',
+  description: '启动 web 服务',
   options: [{
     name: 'root',
     alias: 'r',
