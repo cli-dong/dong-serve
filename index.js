@@ -8,22 +8,39 @@
 
 'use strict';
 
-var extend = require('extend')
-var getPkg = require('package')
-
-module.exports = function(options) {
-
-  var pkg = getPkg('.')
-
-  options = extend({
-    root: '.',
-    host: '127.0.0.1',
-    port: 9527,
-    mock: 'api',
-    open: false,
-    debug: false
-  }, pkg && pkg.dong || {}, options)
-
-  require('./lib/server')(options)
-
+module.exports = {
+  command: 'serve',
+  description: '启动 Web 服务',
+  options: [{
+    name: 'root',
+    alias: 'r',
+    description: 'web root',
+    defaults: '.'
+  }, {
+    name: 'host',
+    alias: 'H',
+    description: 'ip address or domain name',
+    defaults: '127.0.0.1'
+  }, {
+    name: 'port',
+    alias: 'p',
+    description: 'listening port',
+    defaults: 9527
+  }, {
+    name: 'mock',
+    alias: 'm',
+    description: 'mocking data directory',
+    defaults: 'api'
+  }, {
+    name: 'open',
+    alias: 'o',
+    description: 'automatically open in browser',
+    defaults: false
+  }, {
+    name: 'debug',
+    alias: 'd',
+    description: 'show more debug message',
+    defaults: false
+  }],
+  bootstrap: require('./lib/serve')
 }
