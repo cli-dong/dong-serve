@@ -42,5 +42,6 @@ module.exports = {
     description: 'show more debug message',
     defaults: false
   }],
-  bootstrap: require('./lib/serve')
+  bootstrap: require('./lib/serve'),
+  strict: true
 }
