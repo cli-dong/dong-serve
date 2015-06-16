@@ -1,6 +1,6 @@
 {
   "name": "dong-serve",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "a web server with static serve and api mocking",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
